@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
 
 body{
     margin: 0;
@@ -6,6 +6,7 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+/* NAVBAR */
 .Navbar{
     background-color: #F55A5A;
     color: white;
@@ -14,26 +15,69 @@ body{
     justify-content: center;
     align-items: center;
     position:sticky;
+    margin-bottom: 20px;
 }
 .travelIcon{
     height:24px;
     width: 24px;
     margin: 10px;
 }
-.Navbar h3{
-    font-weight: 500;
+.Navbar h5{
+    font-weight: 400;
+    font-size: 1.2em;
+    letter-spacing: 0.15em;
 }
+
+/* CONTAINER */
 .Container{
     display: flex;
     flex-direction: column;
     padding: 0 30px;
-    background-color: rosybrown;
+    width: 50%;
+    margin: auto;
 }
-.locationPin-img{
-    height:30px;
-    width: 20px;
+
+/* SECTION */
+.Section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    /* border:2px solid red; */
 }
 .Section-img{
-    height: 200px;
-    width: 200px;
+    height: 230px;
+    width: 180px;
+    border-radius: 15px;
+}
+
+/* DATA DISPLAY */
+.DataDisplay{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+}
+.DataDisplay div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.locationPin-img{
+    height:17px;
+    width: 10px;
+}
+.locationName{
+    letter-spacing: 0.15em;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.locationMapsLink{
+    font-size: 0.98em;
+    margin-left: 15px;
+    letter-spacing: 0.08em;
+    color: #918E9B;
+}
+.locationTitle{
+    margin: 0;
+
 }

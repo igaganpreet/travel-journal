@@ -5,7 +5,7 @@ import './style.css';
 function Navbar() {
   return (
     <nav className="Navbar">
-        <img src={icon} className="travelIcon"></img>
+        <img src={icon} alt="logo" className="travelIcon"></img>
         <h5>My travel journal</h5>
     </nav>
   );
