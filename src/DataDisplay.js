@@ -7,7 +7,7 @@ export default function DataDisplay(props) {
           <div>
               <img className="locationPin-img" src={LocationPin}></img>
             <h5>{props.display.location}</h5>
-            <h6>View on Google Maps</h6>
+            <a href={props.display.googleMapsUrl}>View on Google Maps</a>
           </div>
          <h1>{props.display.title}</h1> 
          <h3>{props.display.startDate} - {props.display.endDate}</h3>
