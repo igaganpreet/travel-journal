@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+}
+
+.Navbar{
+    background-color: #F55A5A;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:sticky;
+}
+.travelIcon{
+    height:24px;
+    width: 24px;
+    margin: 10px;
+}
+.Navbar h3{
+    font-weight: 500;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    background-color: rosybrown;
+}
+.locationPin-img{
+    height:30px;
+    width: 20px;
+}
+.Section-img{
+    height: 200px;
+    width: 200px;
+}
