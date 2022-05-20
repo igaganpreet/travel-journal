@@ -16,6 +16,7 @@ body{
     align-items: center;
     position:sticky;
     margin-bottom: 20px;
+    height: 4em;
 }
 .travelIcon{
     height:24px;
@@ -42,7 +43,8 @@ body{
     display: flex;
     flex-direction: row;
     margin-top: 30px;
-    /* border:2px solid red; */
+    padding-bottom: 35px;
+    border-bottom: 1px solid #F5F5F5;
 }
 .Section-img{
     height: 230px;
@@ -55,12 +57,19 @@ body{
     display: flex;
     flex-direction: column;
     padding-left: 35px;
+    padding-top: 35px;
+    
+}
+.DataDisplay *{
+    margin:0 0 5px 0;
+    padding:0;
 }
 .DataDisplay div{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 8px;
+    gap: 5px;
+    height:1em;
 }
 .locationPin-img{
     height:17px;
@@ -72,12 +81,11 @@ body{
     font-size: 1.1em;
 }
 .locationMapsLink{
-    font-size: 0.98em;
+    font-size: 0.95em;
     margin-left: 15px;
     letter-spacing: 0.08em;
     color: #918E9B;
 }
-.locationTitle{
-    margin: 0;
-
+.locationDate{
+    margin-top: 20px;
 }

@@ -10,8 +10,8 @@ export default function DataDisplay(props) {
             <a className="locationMapsLink" href={props.display.googleMapsUrl}>View on Google Maps</a>
           </div>
          <h1 className="locationTitle">{props.display.title}</h1> 
-         <h3>{props.display.startDate} - {props.display.endDate}</h3>
-         <p>{props.display.description}</p>
+         <h3 className="locationDate">{props.display.startDate} - {props.display.endDate}</h3>
+         <p className="locationDesc">{props.display.description}</p>
 
       </div>
     );
